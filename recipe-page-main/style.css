@@ -1,0 +1,139 @@
+.attribution { font-size: 11px; text-align: center; display: inline; }
+.attribution a { color: hsl(228, 45%, 44%); }
+footer{
+    display: none;
+    margin-bottom: 0px;
+}
+h1{
+    font-size:  38px;
+    font-weight: 400;
+    font-family:'young serif';
+    color: hsl(24, 5%, 18%);
+}
+h2{
+    font-family:'Young Serif';
+    color: hsl(14, 45%, 36%);
+    font-weight: 400;
+    font-size: 25px;
+}
+
+body{
+    font-family:'Outfit Thin',sans-serif;
+    padding:0;
+    margin: 0;
+background-color:  hsl(30, 54%, 90%) ;
+display: flex;
+justify-content: center;
+align-items: center;
+color: hsl(24, 5%, 18%);
+font-size: 15px;
+line-height: 2em;
+}
+#recepie{
+    margin: 50px 0;
+display: block;
+width: 50vw;
+background-color: white;
+border-radius: 20px;
+align-content: center;
+padding: 2em;
+}
+img{
+display: block;
+border-radius: 10px;
+width: 100%;
+}
+
+li {
+    margin: 0.5em;
+    padding-left: 1em;
+}
+hr{
+    border: 1px solid hsl(30, 18%, 87%);
+}
+li span{
+color: hsl(24, 5%, 18%) ;
+font-weight: normal;
+font-size: 1em;
+
+}
+.preparation{
+
+    border-radius: 10px;
+    background-color: hsl(330, 100%, 98%) ;
+    padding: 1em 2em;
+}
+
+#recepie li{
+    color:  hsl(14, 45%, 36%);
+}
+#recepie ul{
+    list-style: square ;
+    padding-left: 1em;
+    font-weight: 200;
+}
+
+#recepie ol{
+    font-weight: 700;
+    padding: 1em;
+    list-style:decimal ;
+}
+.preparation h3{
+    color: hsl(332, 51%, 32%)!important;
+    padding: 0;
+    margin: 0;
+}
+.preparation li{
+    color: hsl(332, 51%, 32%)!important;
+    list-style: disc; 
+}
+
+table{
+    padding: 1em;
+    width: 100%;
+    border-collapse: collapse;
+}
+table td:nth-child(2n){
+    font-weight: bold;
+    color: hsl(14, 45%, 36%);
+    padding-left: 0em;
+
+}
+tr{
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+td{
+    padding: 1em 1em  ;
+    width: 45%;
+}
+
+table tr:last-of-type{
+    border: none;
+}
+
+@media screen and (max-width:600px) {
+    body{
+        padding:0;
+        margin: 0;
+        font-weight: 600;
+    }
+    #recepie{
+        width: 100vw;
+        border-radius: 0;
+        margin: 0;
+        padding: 0;
+        color: hsl(24, 5%, 18%);
+    }
+    div {
+        margin: auto  2em;
+        font-weight: 600;
+    }
+    img{
+        border-radius: 0;
+        top: 0;
+        left: 0;
+        width: 100%!important;
+        margin: 0;
+    }
+
+}
